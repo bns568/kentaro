@@ -9,11 +9,11 @@ Websites:
 
 Website contents:
 
-	-Contact
-	-Shop (size/color/price/quantity and etc.)
-	-About
+	-Contact 
+	-Shop (size/color/price/quantity and etc.) - Alyssa
+	-About - Mandana
 	-Projects (fashion shows, musical, collaboration and etc.)
-	-Music video (Dead Cat)
+	-Music video (Dead Cat) - Jason
 
 Photographers:
 
