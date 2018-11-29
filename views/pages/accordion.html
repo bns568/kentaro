@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Accordion page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="accordion.css" />
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="../accordion/pana-accordion.js"></script> 
+</head>
+<body>
+    <div class="pana-accordion" id="accordion">
+        <div class="pana-accordion-wrap">
+            <div class="pana-accordion-item">
+                <img height= 400 src="../accordion/Kentaro Grey 6R.jpg">
+            </div>
+            <div class="pana-accordion-item">
+                <img height= 400 src="../accordion/Kentaro Grey 7R.jpg">
+            </div>
+            <div class="pana-accordion-item">
+                <img height= 400 src="../accordion/Kentaro Grey 8R.jpg">
+            </div>
+            <div class="pana-accordion-item">
+                <img height= 400 src="../accordion/Kentaro Grey 8.jpg">
+            </div>
+            <div class="pana-accordion-item">
+                <img height= 400 src="../accordion/Kentaro Grey 7.jpg">
+            </div>
+            <div class="pana-accordion-item">
+                <img height= 400 src="../accordion/Kentaro Grey 6.jpg">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function(){
+            accordion.init({
+                id:'accordion'
+            })
+        });
+    </script>
+</body>
+</html>

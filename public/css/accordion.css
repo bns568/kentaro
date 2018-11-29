@@ -1,0 +1,38 @@
+.pana-accordion{
+    width: 1000px;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+.pana-accordion .pana-accordion-wrap{
+    margin-left: -1px;
+    position: relative;
+    width: 300%
+}
+.pana-accordion .pana-accordion-wrap .pana-accordion-item{
+    border-left: 1px solid #BABABA;
+    width: 100px;
+    height: 400px;
+    object-fit: contain;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+.pana-accordion .pana-accordion-wrap .pana-accordion-item .pana-accordion-mask{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 10;
+    background-color: #000;
+    filter: alpha(opacity=40);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    opacity: 0.4;
+}
+.pana-accordion .pana-accordion-wrap .pana-accordion-item.active .pana-accordion-mask{
+    display: none;
+
+}
