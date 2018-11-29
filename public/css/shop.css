@@ -1,0 +1,26 @@
+#shop-body{
+    background-color: black;
+    background-image: none;
+
+}
+.shop-photo{
+    max-height: 2%;
+    max-width: 50%;
+    padding-top: 20px;    
+}
+figcaption{
+    font-family: 'Creepster', cursive;
+    padding-top: 10px;
+}
+
+html, body{
+    height: 100%;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    width: 70%; 
+}

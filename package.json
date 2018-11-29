@@ -1,0 +1,28 @@
+{
+  "name": "kentaro",
+  "version": "1.0.0",
+  "description": "web site for kentaro kameyama",
+  "main": "server.js",
+  "engines": {
+    "node": "8.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bns568/kentaro.git"
+  },
+  "author": "MD301",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bns568/kentaro/issues"
+  },
+  "homepage": "https://github.com/bns568/kentaro#readme",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "superagent": "^4.0.0"
+  }
+}
