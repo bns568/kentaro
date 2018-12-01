@@ -1,6 +1,6 @@
 @font-face{
     font-family: VinerITC;
-    src: url(fonts/VINERITC.TTF);
+    src: url(../../views/pages/fonts/VINERITC.TTF);
     font-weight: bold;
 }
 body {
@@ -23,14 +23,18 @@ body {
     width: 100%;
     position: fixed;
 }
+.shop{
+    margin-top:15px;
+    font-weight: 1;
+}
 .shop:hover{
-    transform: scale(1.2,1.2)
+    transform: scale(1.1,1.1)
 }
 #footer-template{
     margin: 0px;
 }
 #nav-main{
-    font-family: VinerITC;
+    font-family: Helvetica;
     margin-top: 75px;
     width: 20%;
     height: 150px;
