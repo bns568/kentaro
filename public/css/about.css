@@ -5,15 +5,12 @@ h2{
 .about-bio{
     width:500px;
     height:400px;
-    background-color: white;
     text-shadow: 2px 2px 5px #BFBFBF ; 
     padding:20px;
-    box-shadow: 5px 10px gray;
-    
+    /* box-shadow: 5px 10px gray; */
 } 
 
-.about-bio:hover{
-   
+.about-bio:hover{   
     transform: scale(1.02, 1.02); 
      
 } 
