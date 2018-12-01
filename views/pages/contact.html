@@ -5,26 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="../public/css/main.css" /> 
+    <link rel="stylesheet" type="text/css" media="screen" href="../../public/css/main.css" /> 
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
     <p id="nav-template"></p>
     <article></article>
     <p id="footer-template"></p>
-    <form action="https://fierce-coral.prod.with-datafire.io/contact" method="post">
-        <label>First Name</label>
-        <input type="text" name="firstName">
-        <label>Last Name</label>
-        <input type="text" name="lastName"><br>
-        <label>Your e-mail</label>
-        <input type="text" name="emailAddress"><br>
-        <label>Subject</label>
-        <input type="text" name="subject"><br>
-        <label>Message</label>
-        <textarea name="message"></textarea><br>
-        <button type="submit"></button>
-</form>
+    <div class="form-contact">
+        <form autocomplete="off" action="https://fierce-coral.prod.with-datafire.io/contact" method="post">
+            <div class="group">      
+                <input type="text" name="firstName" required>
+                <span class="bar"></span>
+                <label>First Name</label>
+            </div>
+            <br>
+            <div class="group">      
+                <input type="text" name="lastName" required>
+                <span class="bar"></span>
+                <label>Last Name</label>
+            </div>
+            <br>
+            <div class="group">      
+                <input type="text" name="emailAddress" required>
+                <span class="bar"></span>
+                <label>E-Mail</label>
+            </div>
+            <br>
+            <div class="group">      
+                <input type="text" name="subject" required>
+                <span class="bar"></span>
+                <label>Subject</label>
+            </div>
+            <br>
+            <div class="group">     
+                <textarea name="message" placeholder="Message" required></textarea>
+            </div>
+            <br>
+            <input class="submit_button" type="submit">
+        </form>
+    </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
