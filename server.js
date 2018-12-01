@@ -10,6 +10,7 @@ mongoose.connect('mongodb://${process.env.TEST_DB_USERNAME}:${process.env.TEST_D
 
 const Schema = mongoose.Schema;
 
+
 app.listen(PORT, () => {
     console.log('The server is now running on port' + PORT);
 });
@@ -21,4 +22,6 @@ function errorHandler(err, res) {
     console.error(err);
     if(res) res.status(500).send('Error.');
 }
+
+
 
