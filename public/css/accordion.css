@@ -36,3 +36,13 @@
     display: none;
 
 }
+
+.black-logo-container {
+    width: 100%; 
+    text-align: center;
+}
+
+.black-logo {
+    width: 300px;
+    margin: auto; 
+}
