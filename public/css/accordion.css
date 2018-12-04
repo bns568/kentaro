@@ -43,7 +43,9 @@
 }
 .black-logo{
     width:300px;
+    margin: auto; 
 }
 .black-logo:hover{
     transform: scale(1.1,1.1)
 }
+
