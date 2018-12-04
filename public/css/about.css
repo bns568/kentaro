@@ -1,16 +1,6 @@
-h2{
-    text-shadow:2px 2px 5px gray;
-    padding: 20px;
-}
 .about-bio{
-    width:500px;
-    height:400px;
-    text-shadow: 2px 2px 5px #BFBFBF ; 
-    padding:20px;
-    /* box-shadow: 5px 10px gray; */
+    width: 100%;
+    height: auto;
+    font-weight: normal;
 } 
 
-.about-bio:hover{   
-    transform: scale(1.02, 1.02); 
-     
-} 

@@ -18,10 +18,11 @@ app.listen(PORT, () => {
 app.get('*',(req, res)=>{
     res.send('<img src=http://http.cat/500" />');
 });
-function errorHandler(err, res) {
-    console.error(err);
-    if(res) res.status(500).send('Error.');
-}
+
+app.get('/',(req, res)=> {
+    res.sendFile('views/pages/index.html');
+});
+
 
 app.get('/',(req, res)=>{
     res.send('views/pages/index.html');
