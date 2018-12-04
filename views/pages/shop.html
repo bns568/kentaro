@@ -8,35 +8,57 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../../public/css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../../public/css/main2.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../../public/css/shop.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
 </head>
 <body id="shop-body">
-    <p id="nav-template"></p>
-        <div id="flex-container">
-            <img class="shop-photo one" src="../../photos/Kentaro Grey 2.JPG"/>
-            <figcaption>Long terry pullover - $25</figcaption>
-            <figcaption>Leggings - $100</figcaption>
-            <img class="shop-photo one" src="../../photos/Kentaro Grey 1.JPG"/>
-            <figcaption>Short terry pullover - $20</figcaption>
-            <figcaption>Miniskirt - $40</figcaption>
-            <figcaption>Stockings - $35</figcaption>
-            <img class="shop-photo two" src="../../photos/Kentaro Grey 5.JPG"/>
-            <figcaption>Black dress - $100</figcaption>
-            <img class="shop-photo two" src="../../photos/Kentaro Grey 10.JPG"/>
-            <figcaption>Lavender gown - $200</figcaption>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Shop Nav</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> Login <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fas fa-shopping-bag"></i> Shopping Cart</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fas fa-user-astronaut"></i> Profile</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
 
+    <div class="container">
+            <img src="../../photos/Kentaro Grey 1.JPG" alt="..." class="img-thumbnail rounded float-sm-none">
+            <img src="../../photos/Kentaro Grey 5.JPG" alt="..." class="img-thumbnail rounded float-sm-none">
+            <img src="../../photos/Kentaro Grey 2.JPG" alt="..." class="img-thumbnail rounded float-sm-none">
+            <img src="../../photos/Kentaro Grey 10.JPG" alt="..." class="img-thumbnail rounded float-sm-none">
 
-
-        </div>
+    
     </article>
     <p id="footer-template"></p>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous">
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 <script src="../template/nav.js"></script>
 <script src="app.js"></script>
 <script src="../template/footer.js"></script>
