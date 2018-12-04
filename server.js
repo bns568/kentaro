@@ -1,15 +1,18 @@
 'use strict';
 
 const express = require('express');
-const superagent = require('superagent');
 require('dotenv').config();
 const PORT = process.env.PORT || 3000;
 const app = express();
-const mongoose = require('mongoose');
-mongoose.connect('mongodb://${process.env.TEST_DB_USERNAME}:${process.env.TEST_DB_PASSWORD}@ds123454.mlab.com:23454/kentaro-test');
+app.use(express.static('./public'));
+const path = require('path');
+// const mongoose = require('mongoose');
+// mongoose.connect('mongodb://${process.env.TEST_DB_USERNAME}:${process.env.TEST_DB_PASSWORD}@ds123454.mlab.com:23454/kentaro-test');
 
-const Schema = mongoose.Schema;
-
+// const Schema = mongoose.Schema;
+app.get('/',(req, res)=>{
+    res.sendFile(path.join(__dirname,'views/pages','index.html'));
+});
 
 app.listen(PORT, () => {
     console.log('The server is now running on port' + PORT);
@@ -18,12 +21,4 @@ app.listen(PORT, () => {
 app.get('*',(req, res)=>{
     res.send('<img src=http://http.cat/500" />');
 });
-
-app.get('/',(req, res)=> {
-    res.sendFile('views/pages/index.html');
-});
-
-
-app.get('/',(req, res)=>{
-    res.send('views/pages/index.html');
-});
+//
