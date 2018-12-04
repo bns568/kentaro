@@ -11,7 +11,7 @@ const path = require('path');
 
 // const Schema = mongoose.Schema;
 app.get('/',(req, res)=>{
-    res.sendFile(path.join(__dirname,'views/pages','index.html'));
+    res.sendFile('index.html',{root: './views/pages'});
 });
 
 app.listen(PORT, () => {
@@ -21,4 +21,3 @@ app.listen(PORT, () => {
 app.get('*',(req, res)=>{
     res.send('<img src=http://http.cat/500" />');
 });
-//
