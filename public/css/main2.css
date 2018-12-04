@@ -23,9 +23,17 @@ body {
     width: 100%;
     position: fixed;
 }
+.link{
+    text-decoration: none;
+    color: white;
+}
+#email-text{
+    text-decoration: underline;
+}
 .shop{
     margin-top:15px;
     font-weight: 1;
+    color: white;
 }
 .shop:hover{
     transform: scale(1.1,1.1)
@@ -49,7 +57,6 @@ body {
 article{
     font-family: Helvetica;
     font-weight: bold;
-    color: blue;
     text-align: center;
     float: left;
     width: 100%;
@@ -58,7 +65,7 @@ article{
 
 footer{
     font-family: Helvetica;
-    color: lime;
+    color: white;
     background-color: black;
     text-align: center;
     float: left;
@@ -69,6 +76,9 @@ footer{
 .footer-text{
     margin-top: 5px;
     margin-bottom: 5px;
+}
+#instagram{
+    width: 40px;
 }
 #footer-a{
     width: 33.33%;
