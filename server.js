@@ -24,5 +24,5 @@ function errorHandler(err, res) {
 }
 
 app.get('/',(req, res)=>{
-    res.send('views/pages/index" />');
+    res.send('views/pages/index.html');
 });
