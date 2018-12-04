@@ -23,5 +23,6 @@ function errorHandler(err, res) {
     if(res) res.status(500).send('Error.');
 }
 
-
-
+app.get('/',(req, res)=>{
+    res.send('views/pages/index" />');
+});
