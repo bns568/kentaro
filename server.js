@@ -19,5 +19,5 @@ app.listen(PORT, () => {
 });
 
 app.get('*',(req, res)=>{
-    res.send('<img src=http://http.cat/500" />');
+    res.send('<img src="http://http.cat/500" />');
 });
