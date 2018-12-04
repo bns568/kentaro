@@ -1,12 +1,7 @@
 #shop-body{
     background-color: black;
     background-image: none;
-
-}
-.shop-photo{
-    max-height: 2%;
-    max-width: 50%;
-    padding-top: 20px;    
+   
 }
 figcaption{
     font-family: 'Creepster', cursive;
@@ -17,10 +12,17 @@ html, body{
     height: 100%;
 }
 
-#flex-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;  
-    width: 70%; 
+.container{
+    width: 100%;
+    padding-top: 5%;
+    height: 100%;
+    align-content: center;
+    justify-content: center
+
+}
+img{
+    max-height: 200px;
+    max-width: 300px;
+    margin: 1%;
+    padding-top: 5%;
 }
