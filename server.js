@@ -11,7 +11,7 @@ const path = require('path');
 
 // const Schema = mongoose.Schema;
 app.get('/',(req, res)=>{
-    res.sendFile('index.html',{root: './'});
+    res.sendFile('index.html',{root: '/public'});
 });
 
 app.listen(PORT, () => {
