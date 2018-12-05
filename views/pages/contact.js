@@ -44,6 +44,7 @@ module.exports = new datafire.Action({
   },
 });
 
+
 // let successPage = document.getElementsByClassName('submit_button').addEventListener('click', openSuccessPage);
 // function openSuccessPage(){
 //   window.open('../../pages/success.html')
