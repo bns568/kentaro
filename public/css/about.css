@@ -1,6 +1,16 @@
 .about-bio{
     width: 100%;
     height: auto;
-    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5;
 } 
-
+#bio-container{
+    width:50%;
+    height: 100%;
+    font-family: Helvetica;
+    font-weight: 1;
+    float: right;
+    padding-top: 5vw;
+    background-color: black;
+}
