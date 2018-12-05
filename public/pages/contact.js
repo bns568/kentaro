@@ -43,10 +43,3 @@ module.exports = new datafire.Action({
     return "Success";
   },
 });
-
-
-// let successPage = document.getElementsByClassName('submit_button').addEventListener('click', openSuccessPage);
-// function openSuccessPage(){
-//   window.open('../../pages/success.html')
-
-// }
