@@ -19,17 +19,10 @@ app.get('*',(req, res)=>{
     res.send('<img src="http://http.cat/500" />');
 });
 
-<<<<<<< HEAD
-function errorHandler(err, res) {
-    console.error(err);
-    if(res) res.status(500).send('Error.');
-}
-=======
 app.get('/',(req, res)=> {
     res.sendFile('views/pages/index.html');
 });
 
->>>>>>> f86ac9d1aa1273094924e24db2fd2c5323385455
 
 
 
