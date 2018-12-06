@@ -2,7 +2,7 @@ body {
     margin: 0px;
     background-color: black;
     color: white;
-    background-image: url('../../photos/Kentaro\ Grey\ 4.jpg');
+    background-image: url('../photos/Kentaro\ Grey\ 4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -10,8 +10,9 @@ body {
 
 #kentaro-logo{
     text-align: center;
-    margin-top: 50px;
-    width: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 200px;
     height: auto;
 }
 #nav-template{
@@ -28,7 +29,7 @@ body {
 }
 .shop{
     margin-top:15px;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: 2px;
     color: white;
     margin-left: 0;
@@ -49,7 +50,7 @@ body {
     float: left;
     position: absolute;
     top: 15px;
-    left: 15px;
+    left: 30px;
     z-index: 99;
 }
 article{
@@ -65,7 +66,7 @@ footer{
     float: left;
     width: 100%;
     height: 100%;
-    padding: 40px;
+    padding: 30px;
 }
 .footer-text{
     margin-top: 5px;
@@ -87,3 +88,8 @@ footer{
     float: left;
 }
 
+.footer-text {
+    padding-bottom: 3px;
+    font-size: 10px;
+    letter-spacing: 2px;
+}

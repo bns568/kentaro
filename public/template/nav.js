@@ -3,5 +3,5 @@ $('#nav-main').append("<a class='link' href = '../pages/home.html'><p class='sho
 $('#nav-main').append("<a class='link' href = '../pages/shop.html'><p class='shop'>shop women</p></a>")
 $('#nav-main').append("<a class='link' href = '../pages/about.html'><p class='shop'>about</p></a>")
 $('#nav-main').append("<a class='link' href = '../pages/contact.html'><p class='shop'>contact us</p></a>")
-$('#nav-main').append("<p class='shop'>projects</p>")
+$('#nav-main').append("<a class='link' href = '../pages/projects.html'><p class='shop'>projects</p></a>")
 let navTemplate = Handlebars.compile(nav)
