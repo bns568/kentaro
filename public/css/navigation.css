@@ -1,17 +1,14 @@
-@font-face{
-    font-family: VinerITC;
-    src: url(../../views/pages/fonts/VINERITC.TTF);
-    font-weight: bold;
-}
 body {
     margin: 0px;
     background-color: black;
     color: white;
-    background-image: url('../../photos/Kentaro\ Grey\ 4.jpg');
+    background-image: url('../photos/Kentaro\ Grey\ 4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: 'Encode Sans Condensed', sans-serif;
 }
+
 #kentaro-logo{
     text-align: center;
     margin-top: 50px;

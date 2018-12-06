@@ -1,6 +1,6 @@
 .greeting{
-    position: relative;
-    top: 300px;
+    position: fixed;
+    top: 100px;
     left: 100px;
     width: 100%;
     height: auto;
