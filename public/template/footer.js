@@ -1,6 +1,6 @@
 let footer = $('#footer-template').html("<footer id='footer-main'></footer>")
 $('#footer-main').append('<a class="link" href = "../pages/contact.html"><p class="footer-text" id="contact-text">contact</p></a>')
 $('#footer-main').append('<a class="link" href="https://www.instagram.com/kentarokameyama/" target="_blank"><p class="footer-text">instagram</p></a>')
-$('#footer-main').append("<div id='footer-c'>newsletter</div>")
-$('#footer-main').append("<div id='footer-copyright'>kentaro kameyama © 2018</div>")
+$('#footer-main').append("<div class='footer-text'>newsletter</div>")
+$('#footer-main').append("<div class='footer-text'>kentaro kameyama © 2018</div>")
 let footerTemplate = Handlebars.compile(footer)

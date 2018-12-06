@@ -23,9 +23,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-#contact-container{
-  height: 754.4px;
-}
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -74,13 +71,12 @@ footer{
 
 .form-contact {
     width: 50%;
-    height: 100%;
     background: black;
-    position: absolute;
+    float: right;
     right: 0;
     top: 0;
     box-sizing: border-box;
-    padding: 5vw;
+    padding: 40px;
 }
 
 .group { 
@@ -90,19 +86,21 @@ footer{
   }
 
 textarea {
+    letter-spacing: 2px;
+    font-size:14px;
     background: rgba(0,0,0,0);
     color: white;
-    font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     padding: 10px;
+    min-height: 100px;
 }
 
 input {
     background: rgba(0,0,0,0);
-    font-size:18px;
+    font-size:14px;
     color: white;
-    padding:10px;
+    padding:8px;
     display:block;
     width:100%;
     border:none;
@@ -115,12 +113,13 @@ input {
   /* LABEL ======================================= */
   label {
     color:#999; 
-    font-size:18px;
+    letter-spacing: 2px;
+    font-size:14px;
     font-weight:normal;
     position:absolute;
     pointer-events:none;
     left:5px;
-    top:10px;
+    top:12px;
     transition:0.2s ease all; 
     -moz-transition:0.2s ease all; 
     -webkit-transition:0.2s ease all;
@@ -130,7 +129,7 @@ input {
   /* active state */
   input:focus ~ label, input:valid ~ label {
     top:-12px;
-    font-size:14px;
+    font-size:12px;
     color:#999;
   }
   
@@ -184,4 +183,6 @@ input {
     background: white;
     color: black;
     width: 300px;
+    letter-spacing: 2px;
+    font-size:14px;
 }
