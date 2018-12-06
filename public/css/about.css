@@ -1,14 +1,25 @@
+h1 {
+    text-transform: lowercase;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+p {
+    font-size: 14px;
+}
+
 .about-bio{
     width: 100%;
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    line-height: 1.5;
+    line-height: 2;
 } 
 #bio-container{
+    padding: 5vw;
+    box-sizing: border-box;
     width:50%;
     height: 100%;
-    font-family: Helvetica;
     font-weight: 1;
     float: right;
     padding-top: 5vw;
