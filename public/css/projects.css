@@ -8,11 +8,11 @@ body {
     text-align: center;
     display: flex;
     vertical-align: middle;
-    align-items: center
+    align-items: center;
 }
 #video-1{
-    width: 525px;
-    height: 350px;
+    width: 560px;
+    height: 315px;
     margin: auto;
     text-align: center;
     align-content: center;
