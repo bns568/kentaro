@@ -9,7 +9,7 @@ body {
 }
 
 #kentaro-logo{
-    position: absolute;
+    position: fixed;
     text-align: center;
     margin-top: 30px;
     margin-left: 30px;
@@ -55,7 +55,6 @@ body {
     z-index: 99;
 }
 article{
-    font-weight: bold;
     float: left;
     width: 100%;
 }
