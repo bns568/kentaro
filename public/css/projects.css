@@ -19,3 +19,15 @@ body {
     border: solid 2px;
     border-color: white;
 }
+#kentaro-egg{
+    width: 525px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    border: solid 2px;
+    border-color: white;
+}
+.map{
+    outline: transparent;
+}
