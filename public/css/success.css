@@ -1,8 +1,32 @@
+h2 {
+    text-transform: lowercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+p {
+    font-size: 14px;
+}
+
+
 .greeting{
-    position: fixed;
-    top: 300px;
-    left: 100px;
     width: 100%;
     height: auto;
-    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 2;
+} 
+
+#success-container{
+    min-height: 100vh;
+    padding: 5vw;
+    box-sizing: border-box;
+    width:50%;
+    height: 100%;
+    font-weight: 1;
+    float: right;
+    padding-top: 5vw;
+    background-color: black;
 }
+
+
