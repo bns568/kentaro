@@ -3,10 +3,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 400;
+    background: #222222;
 }
 
 .pana-accordion{
-    width: 1000px;
+    width: 2000px;
     height: 400px;
     margin: 20px auto;
     position: relative;
@@ -18,7 +19,7 @@ body {
     width: 300%
 }
 .pana-accordion .pana-accordion-wrap .pana-accordion-item{
-    border-left: 1px solid #BABABA;
+    border-left: 1px solid charcoal;
     width: 100px;
     height: 400px;
     object-fit: contain;
