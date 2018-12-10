@@ -1,10 +1,10 @@
 let binary = function(){
-    let numStr = "";
-    for (let i = 0; i < 6; i++){
+    let numStr = '';
+    for (let i = 0; i < 3; i++){
         numStr += Math.floor(Math.random() * 2);
     }
-    return numStr
-}
+    return numStr;
+};
 
 let home = binary();
 let collection = binary();
