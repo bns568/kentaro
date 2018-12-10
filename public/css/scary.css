@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+    background-color: black;
+    color: white;
+    background-image: url('../photos/Kentaro\ Grey\ 4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ghost{
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
