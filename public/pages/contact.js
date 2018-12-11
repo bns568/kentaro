@@ -37,9 +37,14 @@ module.exports = new datafire.Action({
     let sent = await google_gmail.users.messages.send({
       userId: "me",
       body: {
-        raw: message,
+        raw: newMessage(),
       },
     }, context);
     return "Success";
   },
 });
+let elP = document.getElementsByClassName("greeting")
+let newMessage = function(){
+  elP.inerHtml = <a href='./../pages/Success.html'></a>
+
+}
