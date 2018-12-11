@@ -37,6 +37,7 @@ body {
     color: white;
     margin-left: 0;
     transition: all .2s ease-in-out;
+    letter-spacing: 5px
 }
 .shop p{
     height: 30px;
