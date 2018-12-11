@@ -29,6 +29,7 @@ body {
     text-decoration: underline;
 }
 .shop{
+    letter-spacing: 10px; 
     font-size: 14px; 
     margin-top:15px;
     margin-bottom: 15px;
