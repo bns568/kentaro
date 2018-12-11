@@ -1,0 +1,15 @@
+body{
+    background-image: url('photos/Graffiti\ Background.jpeg');
+}
+
+#kentaro-logo{
+    color: lightgrey; 
+    position: fixed;
+    text-align: right;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: auto;
+    font-size: 30px;
+    letter-spacing: 8px;
+    line-height: .90;
+}

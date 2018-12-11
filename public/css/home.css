@@ -1,3 +1,24 @@
-#main-content{
+
+* {
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#main-content {
     min-height: 100vh;
+}
+
+#logo {
+    font-size: 45px;
+    letter-spacing: 8px;
 }
