@@ -1,6 +1,6 @@
 let binary = function(){
     let numStr = '';
-    for (let i = 0; i < 3; i++){
+    for (let i = 0; i < 8; i++){
         numStr += Math.floor(Math.random() * 2);
     }
     return numStr;
