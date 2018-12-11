@@ -17,3 +17,8 @@
 #main-content {
     min-height: 100vh;
 }
+
+#logo {
+    font-size: 45px;
+    letter-spacing: 8px;
+}
