@@ -8,16 +8,16 @@ var accordion= {
 	init: function(options){
 		var that=this;
 		options = $.extend(true,{
-			expandWidth: 500,
+			expandWidth: 700,
 			itemWidth: 100,
 			extpand: 0,
 			autoPlay: true,
-			delay: 3000,
+			delay: 2000,
 			animateTime: 400,
 			borderWidth: 1,
 			autoPlay: true,
 			deviator: 30,
-			bounce:"-50px"
+			bounce:"-20px"
 		},options);
 		that.initDom(options);
 		if(options.autoPlay){
