@@ -33,11 +33,10 @@ body {
     margin-top:15px;
     margin-bottom: 15px;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 10px;
     color: white;
     margin-left: 0;
     transition: all .2s ease-in-out;
-    letter-spacing: 5px
 }
 .shop p{
     height: 30px;
