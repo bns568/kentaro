@@ -11,48 +11,46 @@
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet">
 </head>
 <body>
-        <article>
-            <p id="nav-template"></p>
-            <a href="../../pages/home.htm" target="_blank">
-            <div><img id='kentaro-logo' src="../assets/KentaroSketchW.png"></div>
-            </a>
-        </article>
-<article id='contact-container'>
-    <div class="form-contact">
-        <form autocomplete="off" action="https://fierce-coral.prod.with-datafire.io/contact" method="post">
-            <div class="group">      
-                <input type="text" name="firstName" required>
-                <span class="bar"></span>
-                <label>first name</label>
-            </div>
-            <br>
-            <div class="group">      
-                <input type="text" name="lastName" required>
-                <span class="bar"></span>
-                <label>last name</label>
-            </div>
-            <br>
-            <div class="group">      
-                <input type="text" name="emailAddress" required>
-                <span class="bar"></span>
-                <label>e-mail</label>
-            </div>
-            <br>
-            <div class="group">      
-                <input type="text" name="subject" required>
-                <span class="bar"></span>
-                <label>subject</label>
-            </div>
-            <br>
-            <div class="group">     
-                <textarea name="message" placeholder="message" required></textarea>
-            </div>
-            <br>
-            <input class="submit_button" type="submit" value="submit" onclick= "window.open('../pages/success.html'), '_self';">
-        </form>
-    </div>
-</article>
-<p id="footer-template"></p>
+    <article>
+        <p id="nav-template"></p>
+        <p id='kentaro-logo'>kentaro kameyama</p>
+    </article>
+    <article id='contact-container'>
+        <div class="form-contact">
+            <form autocomplete="off" action="https://fierce-coral.prod.with-datafire.io/contact" method="post">
+                <div class="group">      
+                    <input type="text" name="firstName" required>
+                    <span class="bar"></span>
+                    <label>first name</label>
+                </div>
+                <br>
+                <div class="group">      
+                    <input type="text" name="lastName" required>
+                    <span class="bar"></span>
+                    <label>last name</label>
+                </div>
+                <br>
+                <div class="group">      
+                    <input type="text" name="emailAddress" required>
+                    <span class="bar"></span>
+                    <label>e-mail</label>
+                </div>
+                <br>
+                <div class="group">      
+                    <input type="text" name="subject" required>
+                    <span class="bar"></span>
+                    <label>subject</label>
+                </div>
+                <br>
+                <div class="group">     
+                    <textarea name="message" placeholder="message" required></textarea>
+                </div>
+                <br>
+                <input class="submit_button" type="submit" value="submit" onclick= "window.open('../pages/success.html'), '_self';">
+            </form>
+        </div>
+    </article>
+    <p id="footer-template"></p>
 </body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
     <script
