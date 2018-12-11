@@ -12,6 +12,7 @@
     content: "";
     clear: both;
     display: table;
+}
 
 #main-content {
     min-height: 100vh;
