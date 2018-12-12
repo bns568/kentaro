@@ -1,0 +1,9 @@
+#kentaro-logo{
+    justify-content: flex-end;
+    font-family: 'djb_this_is_me_2regular', Arial, Helvetica, sans-serif;
+    color: lightgrey; 
+    text-align: right;
+    height: auto;
+    font-size: 70px;
+    width: 100%; 
+}

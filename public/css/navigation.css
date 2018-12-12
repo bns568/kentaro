@@ -8,13 +8,18 @@
 
 body {
     margin: 0px;
-    background-color: black;
     color: white;
+    /* background-color: black;
     background-image: url('../photos/Kentaro\ Grey\ 4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    display: block;
+    display: block; */
+}
+img{
+    position: absolute;
+    z-index: -100;
+    top: 0;bottom: 0;left: 0;right: 0;
 }
 
 #kentaro-logo{
