@@ -42,13 +42,13 @@ img{
     position: fixed;
 }
 .link{
-    text-decoration: none;
+    text-decoration: none!important;
     color: white;
 }
 #email-text{
     text-decoration: underline;
 }
-.nav{
+.nav-item{
     letter-spacing: 10px; 
     font-size: 14px; 
     margin-top: 15px;
