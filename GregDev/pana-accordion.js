@@ -12,7 +12,7 @@ var accordion= {
 			itemWidth: 100,
 			extpand: 0,
 			autoPlay: true,
-			delay: 3000,
+			delay: 2000,
 			animateTime: 400,
 			borderWidth: 1,
 			autoPlay: true,

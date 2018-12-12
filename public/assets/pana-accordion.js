@@ -9,10 +9,10 @@ var accordion= {
 		var that=this;
 		options = $.extend(true,{
 			expandWidth: 500,
-			itemWidth: 100,
-			extpand: 0,
+			itemWidth: 60,
+			extpand: 10,
 			autoPlay: true,
-			delay: 3000,
+			delay: 2000,
 			animateTime: 400,
 			borderWidth: 1,
 			autoPlay: true,

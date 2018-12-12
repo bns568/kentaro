@@ -16,11 +16,13 @@ body {
 }
 
 #accordion1{
-    width: 560px;
-    height: 315px;
-    margin: auto;
-    text-align: center;
-    align-content: center;
+    width: 800px;
+    height: 350px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    align-content: left;
     border: solid 2px;
     border-color: white;
 }

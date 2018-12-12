@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'djb_this_is_me_2regular';
+    src: url('../fonts/djb_this_is_me_2-webfont.woff2') format('woff2'),
+         url('../fonts/djb_this_is_me_2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0px;
     background-color: black;
@@ -9,13 +17,15 @@ body {
 }
 
 #kentaro-logo{
+    color: lightgrey;
+    font-family: 'djb_this_is_me_2regular', Arial, Helvetica, sans-serif; 
     position: fixed;
     text-align: center;
     margin-top: 30px;
     margin-left: 30px;
     width: 200px;
     height: auto;
-    font-size: 40px;
+    font-size: 70px;
     letter-spacing: 8px;
     line-height: .90;
     color: white;

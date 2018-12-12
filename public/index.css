@@ -1,15 +1,41 @@
+@font-face {
+    font-family: 'djb_this_is_me_2regular';
+    src: url('fonts/djb_this_is_me_2-webfont.woff2') format('woff2'),
+         url('fonts/djb_this_is_me_2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     background-image: url('photos/Graffiti\ Background.jpeg');
+    display: flex;
 }
 
 #kentaro-logo{
+    justify-content: flex-end;
+    font-family: 'djb_this_is_me_2regular', Arial, Helvetica, sans-serif;
     color: lightgrey; 
-    position: fixed;
     text-align: right;
-    margin-top: 30px;
-    margin-left: 30px;
     height: auto;
-    font-size: 30px;
-    letter-spacing: 8px;
-    line-height: .90;
+    font-size: 70px;
+    width: 100%; 
+}
+
+.rotate {
+
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+    
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    
+    /* Opera */
+    -o-transform: rotate(-90deg);
+    
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    
 }

@@ -5,22 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>collection</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="../index.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="../css/collection.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="../css/navigation.css"/>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="../assets/pana-accordion.js"></script> 
     
 </head>
 <body>
     <article>
         <p id="nav-template"></p>
-        <a href="../pages/home.html"> 
-        <p id='kentaro-logo'>kentaro kameyama</p>
-        </a>
+        <a href="home.html"><p id='kentaro-logo'>KENTARO</p></a>
     </article>
     <article id="main-content">
-        <div id='accordion'><p id='accordion1'>accordion here</p></div>
+        <div id='accordion'>
+                    <div class="pana-accordion" id="accordion1">
+                        <div class="pana-accordion-wrap">
+                            <div class="pana-accordion-item">
+            
+                                <img height= 350 src="../photos/Kentaro Grey 6R.jpg">
+                            </div>
+                            <div class="pana-accordion-item">
+                                <img height= 350 src="../photos/Kentaro Grey 7R.jpg">
+                            </div>
+                            <div class="pana-accordion-item">
+                                <img height= 350 src="../photos/Kentaro Grey 8R.jpg">
+                            </div>
+                            <div class="pana-accordion-item">
+                                <img height= 350 src="../photos/Kentaro Grey 8.jpg">
+                            </div>
+                            <div class="pana-accordion-item">
+                                <img height= 350 src="../photos/Kentaro Grey 7.jpg">
+                            </div>
+                            <div class="pana-accordion-item">
+                                <img height= 350 src="../photos/Kentaro Grey 6.jpg">
+            
+                            </div>
+                        </div>
+                    </div></a>
+        </div>
     </article>
+    <script type="text/javascript">
+        $(function(){
+            accordion.init({
+                id:'accordion'
+            })
+        });
+    </script><br>
     <p id="footer-template"></p>
     
 </body>

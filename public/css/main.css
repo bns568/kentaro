@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'djb_this_is_me_2regular';
+    src: url('fonts/djb_this_is_me_2-webfont.woff2') format('woff2'),
+         url('fonts/djb_this_is_me_2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 body {
@@ -6,8 +14,8 @@ body {
 }
 
 .pana-accordion{
-    width: 2000px;
-    height: 400px;
+    width: 1000px;
+    height: 350px;
     margin: 20px auto;
     position: relative;
     overflow: hidden;
@@ -18,9 +26,9 @@ body {
     width: 300%
 }
 .pana-accordion .pana-accordion-wrap .pana-accordion-item{
-    border-left: 1px solid charcoal;
+    border-left: 1px ;
     width: 100px;
-    height: 400px;
+    height: 350px;
     object-fit: contain;
     float: left;
     position: absolute;
