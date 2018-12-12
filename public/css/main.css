@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'djb_this_is_me_2regular';
+    src: url('fonts/djb_this_is_me_2-webfont.woff2') format('woff2'),
+         url('fonts/djb_this_is_me_2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 body {

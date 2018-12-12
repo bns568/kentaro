@@ -7,17 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="index.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css"/>
-
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="assets/pana-accordion.js"></script> 
 
 </head>
 <body>
-   
-    <br><br>
 
     <a href="pages/home.html">
-        <p id='kentaro-logo'>kentaro kameyama</p>
+        <p id='kentaro-logo' class="rotate">KENTARO</p><br>
     </a>
 
-
+    <script type="text/javascript">
+        $(function(){
+            accordion.init({
+                id:'accordion'
+            })
+        });
+    </script>
 </body>
 </html>
