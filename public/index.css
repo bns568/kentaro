@@ -4,7 +4,6 @@
          url('fonts/djb_this_is_me_2-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body{
@@ -15,10 +14,10 @@ body{
 #kentaro-logo{
     justify-content: flex-end;
     font-family: 'djb_this_is_me_2regular', Arial, Helvetica, sans-serif;
-    color: lightslategray; 
+    color: lightgray; 
     text-align: right;
     height: auto;
-    font-size: 50px;
+    font-size: 70px;
     width: 100%; 
 }
 
