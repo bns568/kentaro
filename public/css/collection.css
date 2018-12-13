@@ -30,6 +30,9 @@ body {
 #collection-title{
     margin-top: 100px;
     text-align: right;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .1px;
+    font-size: 25px;
 }
 
 .titleAndAccordion {
