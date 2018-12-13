@@ -45,6 +45,6 @@ module.exports = new datafire.Action({
 });
 let elP = document.getElementsByClassName("greeting")
 let newMessage = function(){
-  elP.inerHtml = <a href='./../pages/Success.html'></a>
+  elP.innerHtml = <a href='./../pages/Success.html'></a>
 
 }
