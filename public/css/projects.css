@@ -2,25 +2,6 @@ body {
     width:100%;
 }
 
-#video-container{
-    width: 100%;
-    height: 400px;
-    text-align: center;
-    display: flex;
-    vertical-align: middle;
-    align-items: center;
-}
-
-#video-1{
-    width: 560px;
-    height: 315px;
-    margin: auto;
-    text-align: center;
-    align-content: center;
-    border: solid 2px;
-    border-color: white;
-}
-
 #kentaro-egg{
     width: 525px;
     height: auto;
