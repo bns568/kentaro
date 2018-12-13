@@ -28,7 +28,7 @@ body {
     font-size: 70px;
     letter-spacing: 8px;
     line-height: .90;
-    color: white;
+
 }
 
 #nav-template{
@@ -42,6 +42,7 @@ body {
 }
 #email-text{
     text-decoration: underline;
+    color:white;
 }
 .nav{
     letter-spacing: 10px; 
@@ -92,7 +93,7 @@ footer{
 .footer-text{
     margin-top: 5px;
     margin-bottom: 5px;
-}
+    }
 #instagram{
     width: 40px;
 }
@@ -113,4 +114,5 @@ footer{
     padding-bottom: 3px;
     font-size: 10px;
     letter-spacing: 2px;
+
 }
