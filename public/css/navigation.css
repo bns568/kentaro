@@ -37,6 +37,7 @@ body {
     margin: 0px;
     width: 100%;
     position: fixed;
+    z-index: 9999999;
 }
 .link{
     text-decoration: none!important;
@@ -54,10 +55,16 @@ body {
     letter-spacing: 2px;
     color: white;
     margin-left: 0;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     -webkit-text-stroke-width: .40px;
     -webkit-text-stroke-color: white;
 }
+.nav-item:hover {
+    letter-spacing: 15px;
+}
+
 .shop p{
     height: 30px;
 }

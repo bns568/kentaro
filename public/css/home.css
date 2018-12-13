@@ -34,8 +34,9 @@
     vertical-align: middle;
     align-items: center;
     align-content: center;
-    border: solid 2px;
-    border-color: white;
+    -webkit-box-shadow: 0px 50px 79px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 50px 79px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 50px 79px -8px rgba(0,0,0,0.75);
 }
 
 #additional-spacing{

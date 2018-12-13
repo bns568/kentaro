@@ -2,10 +2,10 @@
 .card{
     display:flex;
     align-content: center;
-    margin-left: 35%;
-    border-color: green;
     color: white;
-    background-color: grey!important ;
+    background-color: #222222;
+    width: 70% !important;
+    border: none !important;
 } 
 
 .card-text, .card-price {
