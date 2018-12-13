@@ -18,11 +18,22 @@ body {
 #accordion1{
     width: 800px;
     height: 350px;
-    margin-top: 150px;
+    margin-top: -17px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
     align-content: left;
     border: solid 2px;
     border-color: white;
+}
+
+#collection-title{
+    margin-top: 100px;
+    text-align: right;
+}
+
+.titleAndAccordion {
+    margin-left: auto; 
+    margin-right: auto;
+    width: 800px;
 }
