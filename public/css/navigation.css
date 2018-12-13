@@ -17,16 +17,16 @@ body {
 }
 
 #kentaro-logo{
-    color: lightgrey;
+    color: white;
     font-family: 'djb_this_is_me_2regular', Arial, Helvetica, sans-serif; 
     position: fixed;
     text-align: center;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 0px;
     width: 200px;
     height: auto;
-    font-size: 70px;
-    letter-spacing: 8px;
+    font-size: 40px;
+    letter-spacing: 2.5px;
     line-height: .90;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
@@ -68,7 +68,7 @@ body {
     margin: 0px;
 }
 #nav-main{
-    margin-top: 100px;
+    margin-top: 75px;
     width: 20%;
     height: 150px;
     color: white;
