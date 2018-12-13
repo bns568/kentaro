@@ -4,15 +4,25 @@
     align-content: center;
     color: white;
     background-color: #222222;
-    width: 70% !important;
+    width: 100% !important;
     border: none !important;
+    opacity: .8;
 } 
 
 .card-text, .card-price {
     font-family: 'Montserrat', sans-serif!important;
-    font-size: small;
 }
 
+.card-text {
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: .1px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#card-price {
+    text-align: right
+}
 
 a.btn-primary{
     background-color: white!important;
@@ -20,10 +30,37 @@ a.btn-primary{
     font-size: small;
     border-color:white!important;
     font-family: 'Montserrat', sans-serif!important;
-
+    float: right;
 }
+
 a.btn-primary:hover{
     opacity:0; 
     filter:alpha(opacity=0); 
     border-color:white;
+}
+
+#shop-title{
+    text-align: right;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .1px;
+    font-size: 25px;
+}
+
+#shop-container{
+    min-height: 100vh;
+    padding: 5vw;
+    box-sizing: border-box;
+    width: 70vh;
+    height: 100%;
+    font-weight: 1;
+    float: right;
+    padding-top: 5vw;
+    background-color: black;
+}
+
+
+.titleAndAccordion {
+    margin-left: auto; 
+    margin-right: auto;
+    width: 70vh;
 }
