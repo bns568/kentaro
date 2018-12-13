@@ -1,0 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+.al-modal, #modal {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black!important;
+    color: white!important;
+    border-color: black!important;
+
+}
