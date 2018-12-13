@@ -40,6 +40,5 @@ module.exports = new datafire.Action({
         raw: message,
       },
     }, context);
-    return "Success";
   },
 });
