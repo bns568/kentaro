@@ -22,3 +22,22 @@
     font-size: 45px;
     letter-spacing: 8px;
 }
+
+#latest-collection {
+    width: 700px;
+    height: auto;
+    margin-top: 100px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    align-content: center;
+    border: solid 2px;
+    border-color: white;
+}
+
+#additional-spacing{
+    height: 25px; 
+}
