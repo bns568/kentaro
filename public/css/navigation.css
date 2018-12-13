@@ -15,6 +15,11 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+img{
+    position: absolute;
+    z-index: -100;
+    top: 0;bottom: 0;left: 0;right: 0;
+}
 
 #kentaro-logo{
     color: white;
