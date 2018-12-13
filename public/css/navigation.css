@@ -30,6 +30,7 @@ body {
     line-height: .90;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+    z-index: 20;
 }
 
 #nav-template{
