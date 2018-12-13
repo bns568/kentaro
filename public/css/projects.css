@@ -33,7 +33,7 @@ body {
     font-size: 25px;
 }
 
-.titleAndVideo {
+#titleAndVideo {
     margin-left: auto; 
     margin-right: auto;
     width: 560px;
