@@ -1,7 +1,6 @@
-h1 {
+#title {
     text-transform: lowercase;
-    font-size: 12px;
-    letter-spacing: 5px;
+    font-size: 25px;
 }
 
 p {
