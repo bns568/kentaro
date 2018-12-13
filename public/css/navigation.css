@@ -15,11 +15,15 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: block; */
+    
 }
 img{
     position: absolute;
     z-index: -100;
     top: 0;bottom: 0;left: 0;right: 0;
+}
+.map{
+    z-index: 200;
 }
 
 #kentaro-logo{
@@ -35,7 +39,9 @@ img{
     letter-spacing: 8px;
     line-height: .90;
 }
-
+#footer-main{
+    margin-top: 15%;
+}
 #nav-template{
     margin: 0px;
     width: 100%;
