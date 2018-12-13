@@ -8,17 +8,20 @@
 
 body{
     background-image: url('photos/Graffiti\ Background.jpeg');
+    background-attachment: fixed;
     display: flex;
 }
 
 #kentaro-logo{
-    justify-content: flex-end;
+    position: fixed;
     font-family: 'djb_this_is_me_2regular', Arial, Helvetica, sans-serif;
     color: lightgrey; 
-    text-align: right;
-    height: auto;
     font-size: 70px;
-    width: 100%; 
+    letter-spacing: 8px;
+    margin-left: 120px;
+    margin-bottom: 100px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .rotate {

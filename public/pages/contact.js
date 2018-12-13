@@ -40,7 +40,6 @@ module.exports = new datafire.Action({
         raw: newMessage(),
       },
     }, context);
-    return "Success";
   },
 });
 let elP = document.getElementsByClassName("greeting")
