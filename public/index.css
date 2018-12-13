@@ -20,6 +20,8 @@ body{
     letter-spacing: 8px;
     margin-left: 120px;
     margin-bottom: 100px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .rotate {

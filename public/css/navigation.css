@@ -28,6 +28,8 @@ body {
     font-size: 70px;
     letter-spacing: 8px;
     line-height: .90;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 #nav-template{
