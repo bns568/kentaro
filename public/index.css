@@ -16,12 +16,13 @@ body{
     position: fixed;
     font-family: 'djb_this_is_me_2regular', Arial, Helvetica, sans-serif;
     color: lightgrey; 
-    font-size: 70px;
-    letter-spacing: 8px;
-    margin-left: 120px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-top: 125px;
+    margin-left: 300px;
     margin-bottom: 100px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .05px;
+    -webkit-text-stroke-color: lightgrey;
 }
 
 .rotate {
